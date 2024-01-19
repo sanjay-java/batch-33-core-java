@@ -1,7 +1,7 @@
+package arrays;
 import oops.Dog;
-import Student;
 
-public class arrayclass {
+public class ArrayClass {
     private  static Student[] students = new Student[100];
     public static void main(String[] args) {
 
@@ -106,17 +106,17 @@ public class arrayclass {
         Student s1 = new Student(1);
         Student s2 = new Student(1);
 
-        if(s1.equals(s2)) // true
+        /*if(s1.equals(s2)) // true
 
             if( s1 == s2) // false
 
                 s1 = s2;
-        if( s1 == s2) // true
+        if( s1 == s2) // true*/
 
 
-        s1.compareTo(s2); // compare by height -
+        //s1.compareTo(s2); // compare by height -
 
-        s1.compareTo(s2); // compare by height and weight
+        //s1.compareTo(s2); // compare by height and weight
 
 
             // natural order
@@ -125,12 +125,8 @@ public class arrayclass {
 
         return null;
     }
-
     // equals
     // ==
-
-
-
 }
 
 
