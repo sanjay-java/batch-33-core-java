@@ -1,0 +1,6 @@
+target/*
+.DS_Store
+.idea/
+batch-33-corejava.iml
+core-java.iml
+src/.DS_Store
